@@ -9,7 +9,7 @@ export const FooterSection = styled("footer")`
 export const Title = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: #0A8ED9;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -25,7 +25,7 @@ export const NavLink = styled(Link)`
   &:hover,
   &:active,
   &:focus {
-    color: #15418e;
+    color: #0A8ED9;
   }
 `;
 
@@ -44,7 +44,7 @@ export const LogoContainer = styled("div")`
 `;
 
 export const Para = styled("div")`
-  color: #18216d;
+  color: #0A8ED9;
   font-size: 14px;
   width: 70%;
 `;
@@ -71,7 +71,7 @@ export const Large = styled(Link)<any>`
 export const Chat = styled("p")`
   color: #18216d;
   max-width: fit-content;
-  border-bottom: 1px solid #18216d;
+  border-bottom: 1px solid #0A8ED9;
   cursor: pointer;
   margin-top: 1rem;
   transition: all 0.3s ease-in-out;
@@ -88,7 +88,7 @@ export const Empty = styled("div")`
 `;
 
 export const FooterContainer = styled("div")`
-  max-width: 510px;
+  max-width: 110px;
   width: 100%;
   display: flex;
   justify-content: space-between;
